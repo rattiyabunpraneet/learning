@@ -1,4 +1,98 @@
 # depslib dependency file v1.0
-1763198301 source:c:\rattiya\dev\learning\main.cpp
-	<iostream>
+1762855901 source:c:\rattiya\dev\learning\main.cpp
+	<uv.h>
+	<stdio.h>
+	<stdlib.h>
+
+1762853858 c:\rattiya\dev\learning\include\uv.h
+	"uv-errno.h"
+	"uv-version.h"
+	<stddef.h>
+	<stdio.h>
+	"stdint-msvc2008.h"
+	<stdint.h>
+	"uv-win.h"
+	"uv-unix.h"
+
+1762853858 c:\rattiya\dev\learning\include\uv-errno.h
+	<errno.h>
+
+1762853858 c:\rattiya\dev\learning\include\uv-version.h
+
+1762853858 c:\rattiya\dev\learning\include\stdint-msvc2008.h
+	<limits.h>
+	<wchar.h>
+
+1762853858 c:\rattiya\dev\learning\include\uv-win.h
+	<winsock2.h>
+	<mswsock.h>
+	<ws2tcpip.h>
+	<windows.h>
+	<process.h>
+	<signal.h>
+	<fcntl.h>
+	<sys/stat.h>
+	"stdint-msvc2008.h"
+	<stdint.h>
+	"tree.h"
+	"uv-threadpool.h"
+
+1762853858 c:\rattiya\dev\learning\include\tree.h
+
+1762853858 c:\rattiya\dev\learning\include\uv-threadpool.h
+
+1762853858 c:\rattiya\dev\learning\include\uv-unix.h
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<dirent.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<termios.h>
+	<pwd.h>
+	<semaphore.h>
+	<pthread.h>
+	<signal.h>
+	"uv-threadpool.h"
+	"uv-linux.h"
+	"uv-os390.h"
+	"uv-aix.h"
+	"uv-sunos.h"
+	"uv-darwin.h"
+	"uv-bsd.h"
+	"uv-posix.h"
+	"pthread-barrier.h"
+
+1762853858 c:\rattiya\dev\learning\include\uv-linux.h
+
+1762853858 c:\rattiya\dev\learning\include\uv-os390.h
+
+1762853858 c:\rattiya\dev\learning\include\uv-aix.h
+
+1762853858 c:\rattiya\dev\learning\include\uv-sunos.h
+	<sys/port.h>
+	<port.h>
+
+1762853858 c:\rattiya\dev\learning\include\uv-darwin.h
+	<mach/mach.h>
+	<mach/task.h>
+	<mach/semaphore.h>
+	<TargetConditionals.h>
+
+1762853858 c:\rattiya\dev\learning\include\uv-bsd.h
+
+1762853858 c:\rattiya\dev\learning\include\uv-posix.h
+
+1762853858 c:\rattiya\dev\learning\include\pthread-barrier.h
+	<errno.h>
+	<pthread.h>
+	<semaphore.h>
+
+1763210281 source:c:\rattiya\dev\learning\mainuv.cpp
+	<uv.h>
+	<stdio.h>
+	<stdlib.h>
 

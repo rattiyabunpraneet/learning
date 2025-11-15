@@ -1,12 +1,23 @@
-#include <iostream>
-
-int dataa = 1000;
+#include <uv.h>
+// #include <cstdlib>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-    std::cout << "Hello world!" << "\n";
+    // uv_loop_t *loop = malloc(sizeof(uv_loop_t));
+    uv_loop_t *loop = (uv_loop_t*)malloc(sizeof(uv_loop_t));
 
-    int x{201};
-    std::cout << x << "\n";
+
+    uv_loop_init(loop);
+
+    printf("Now quittingXXX.\n");
+
+    uv_run(loop, UV_RUN_DEFAULT);
+
+    uv_loop_close(loop);
+
+    free(loop);
+
     return 0;
 }
